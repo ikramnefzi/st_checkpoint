@@ -4,7 +4,7 @@ import numpy as np
 
 import gzip
 # Load model with gzip decompression
-with gzip.open(r'C:\Users\ikram\PycharmProjects\pythonProject\Financial.pkl.gz', 'rb') as f:
+with gzip.open('Financial.pkl.gz', 'rb') as f:
     model = pickle.load(f)
 
 # Créer une fonction pour faire la prédiction
